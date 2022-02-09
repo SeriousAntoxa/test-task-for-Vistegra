@@ -38,16 +38,21 @@
           </table>
         </section>
 
-        <section class="catalog block">
-          <h2 class="catalog__title title">Каталог</h2>
-          <div class="catalog__filter">
-            <select class="catalog__filter-width" name="selectWidth" id="selectWidth">
-              <option selected value="0">Все</option>
-              <option value="95">95</option>
-              <option value="100">100</option>
-              <option value="130">130</option>
+        <aside class="filter">
+          <h2 class="filter__title">Фильтр</h2>
+          <div class="filter-width">
+            <p class="filter-width__title">Ширина:</p>
+            <select class="filter-width__items" name="selectWidth" id="selectWidth">
+              <option class="filter-width__item" selected value="0">Все</option>
+              <option class="filter-width__item" value="95">95</option>
+              <option class="filter-width__item" value="100">100</option>
+              <option class="filter-width__item" value="130">130</option>
             </select>
           </div>
+        </aside>
+
+        <section class="catalog block">
+          <h2 class="catalog__title title">Каталог</h2>
           <div class="catalog__settings">
             <button class="settings__btn btn_block">Блок</button>
             <button class="settings__btn btn_list">Список</button>
