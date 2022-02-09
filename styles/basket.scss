@@ -1,0 +1,38 @@
+.basket__table {
+  width: 100%;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 15px;
+  border-spacing: 0px;
+  background-color: #ffffff;
+}
+
+.basket__row > td,
+.basket__row > th {
+  text-align: start;
+  padding: 10px 5px;
+  border-bottom: 1px solid #a0a0a0;
+}
+.basket__row > td:first-child,
+.basket__row > th:first-child {
+  width: 60%;
+}
+.basket__row:nth-child(2n) {
+  background-color: #f3fdff;
+}
+
+.basket__prod-row {
+  font-weight: 600;
+}
+.basket__prod-input {
+  border: 1px solid #3f3f3f;
+  padding: 2px;
+}
+
+.basket__prod-delete {
+  cursor: pointer;
+}
+.basket__prod-delete:hover {
+  color: #ff0000;
+  cursor: pointer;
+}

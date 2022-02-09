@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test task for Vistegra. Anton Podobed.</title>
+  <link rel="stylesheet" href="dist/index.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="container">
+
+      <main class="main">
+
+        <h1 class="main__title title">Test task for Vistegra. Anton Podobed.</h1>
+
+        <section class="basket block">
+          <h2 class="basket__title title">Корзина</h2>
+          <table class="basket__table">
+            <tr class="basket__main-row basket__row">
+              <th class="basket__main-name">Наименование</th>
+              <th class="basket__main-count">Кол-во</th>
+              <th class="basket__main-price">Цена/шт</th>
+              <th class="basket__main-sum">Сумма</th>
+              <td></td>
+            </tr>
+            <tr class="basket__result-row last_row basket__row">
+              <td class="basket__result-name">Итого</td>
+              <td></td>
+              <td></td>
+              <td class="basket__result-sum"></td>
+              <td></td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="catalog block">
+          <h2 class="catalog__title title">Каталог</h2>
+          <div class="catalog__filter">
+            <select class="catalog__filter-width" name="selectWidth" id="selectWidth">
+              <option selected value="0">Все</option>
+              <option value="95">95</option>
+              <option value="100">100</option>
+              <option value="130">130</option>
+            </select>
+          </div>
+          <div class="catalog__settings">
+            <button class="settings__btn btn_block">Блок</button>
+            <button class="settings__btn btn_list">Список</button>
+          </div>
+          <div class="catalog__cards catalog_block">
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+
+  </div>
+
+  <script src='dist/index.js'></script>
+
+</body>
+
+</html>

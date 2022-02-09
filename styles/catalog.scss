@@ -1,0 +1,120 @@
+.catalog__cards {
+  width: 100%;
+  padding: 20px 0;
+  margin: 10px -10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 600px;
+  overflow-y: auto;
+}
+
+.catalog_block {
+  .card {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    &__name {
+      margin-top: 10px;
+      font-weight: 600;
+    }
+    &__price {
+      height: 70px;
+    }
+    &__btn {
+      height: 70px;
+    }
+  }
+}
+
+.catalog_list {
+  .card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    &__img {
+      min-width: 250px;
+      background-color: #eef7ff;
+    }
+
+    &__name {
+      width: 60%;
+      margin: 5px 10px;
+      font-weight: 600;
+    }
+
+    &__price {
+      width: 140px;
+    }
+
+    &__btn {
+      width: 100px;
+      height: 90%;
+      padding: 10px;
+    }
+  }
+}
+
+.card {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 10px;
+
+  &__img {
+    padding: 5px;
+    background-color: #eef7ff;
+  }
+
+  &__name {
+    font-weight: 600;
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1c67c2;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    color: #1c67c2;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: 1px solid #1c67c2;
+    background-color: #ffffff;
+
+    &:hover {
+      background-color: #eef7ff;
+    }
+  }
+}
+
+.catalog__settings {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.settings__btn {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: rgb(245, 227, 68);
+  font-size: 1.1rem;
+}
+
+.settings__btn:hover {
+  background-color: rgb(255, 230, 0);
+}
